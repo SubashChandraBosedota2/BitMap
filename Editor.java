@@ -21,9 +21,9 @@ public class Editor
         private boolean getPixel(int x, int y)
 	{
             if (isValid(x, y)==true){
-             for (int i = 0; i < m-1 ; ++i)
+             for (int i = 0; i <m; ++i)
 		{
-                    for (int j = 0; j-1 < n ; ++j)
+                    for (int j = 0; j< n ; ++j)
 			{
 			field[i][j] = 'O';
                            }
