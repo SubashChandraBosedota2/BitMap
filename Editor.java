@@ -60,7 +60,7 @@ public class Editor
 	{
 	}
         // method for accesing the editor 
-        public final int inputCommand(String command) 
+        public inputCommand(String command) 
 	{
                  char charArg;
                  int a []=new int [2];
@@ -110,8 +110,7 @@ public class Editor
                       System.out.println(" thank you and choose Y in future to use the program");
 
                  }
-                         return 1;
-                
+                   
                 }
 }
 /*end of the program*/
