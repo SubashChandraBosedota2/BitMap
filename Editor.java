@@ -60,7 +60,7 @@ public class Editor
 	{
 	}
         // method for accesing the editor 
-        public inputCommand(String command) 
+        public void inputCommand(String command) 
 	{
                  char charArg;
                  int a []=new int [2];
